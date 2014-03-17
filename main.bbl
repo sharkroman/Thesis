@@ -1,0 +1,76 @@
+\begin{thebibliography}{9}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Zhang et~al.(2002)Zhang, Walker, and Dawes]{Zhang2002}
+Lu~Zhang, GR~Walker, and WR~Dawes.
+\newblock {Water balance modelling: concepts and applications}.
+\newblock \emph{ACIAR MONOGRAPH SERIES}, \penalty0 (84):\penalty0 31--47, 2002.
+\newblock URL
+  \url{http://www.researchgate.net/publication/228947764\_Water\_balance\_modelling\_concepts\_and\_applications/file/d912f51258ba62592b.pdf}.
+
+\bibitem[Leopoldo et~al.(1982)Leopoldo, Franken.W, and Salati]{Leopoldo1982}
+P.R Leopoldo, Franken.W, and E~Salati.
+\newblock \emph{{Acta amazonica}}.
+\newblock 1982.
+\newblock URL
+  \url{http://scholar.google.com/scholar?hl=en\&btnG=Search\&q=intitle:Acta+Amazonica\#3}.
+
+\bibitem[Kirby and Dijk(2008)]{Kirby2008}
+JM~Kirby and A~Van Dijk.
+\newblock {balance accounts across the Murray-Darling Basin, 1990-2006. A
+  report to the Australian Government from the CSIRO Murray-Darling Basin
+  Sustainable Yields}.
+\newblock Technical report, 2008.
+\newblock URL \url{http://www.csiro.co.uk/files/files/pnq6.pdf}.
+
+\bibitem[Ma et~al.(2013)Ma, Feng, and Song]{Ma2013}
+Ying Ma, Shaoyuan Feng, and Xianfang Song.
+\newblock {A root zone model for estimating soil water balance and crop yield
+  responses to deficit irrigation in the North China Plain}.
+\newblock \emph{Agricultural Water Management}, 127:\penalty0 13--24, September
+  2013.
+\newblock ISSN 03783774.
+\newblock \doi{10.1016/j.agwat.2013.05.011}.
+\newblock URL
+  \url{http://linkinghub.elsevier.com/retrieve/pii/S0378377413001303}.
+
+\bibitem[Walker and Zhang(2001)]{Zhang2001}
+G.R. Walker and L.~Zhang.
+\newblock \emph{Plot-scale models and their application to recharge studies}.
+\newblock CSIRO Publishing., Melbourne, 2001.
+
+\bibitem[Salati and Vose(1984)]{Salati1984a}
+E~Salati and PB~Vose.
+\newblock {Amazon basin: a system in equilibrium}.
+\newblock \emph{Science}, 225\penalty0 (4658):\penalty0 129--138, 1984.
+\newblock URL
+  \url{http://www.biology.ufl.edu/COURSES/pcb5356/2010Spring/Kitajima/SalatiVose84.pdf}.
+
+\bibitem[Leopoldo et~al.(1995)Leopoldo, Franken, and Nova]{Leopoldo1995}
+PR~Leopoldo, WK~Franken, and NA~Villa Nova.
+\newblock {Real evapotranspiration and transpiration through a tropical rain
+  forest in central Amazonia as estimated by the water balance method}.
+\newblock \emph{Forest Ecology and \ldots}, 73, 1995.
+\newblock URL
+  \url{http://www.sciencedirect.com/science/article/pii/037811279403487H}.
+
+\bibitem[Maps(2014)]{Google2014}
+Google Maps.
+\newblock {T}asmania, {A}ustralia. {L}atitude: -42.61 , {L}ongitude: 147.39,
+  2014.
+\newblock URL
+  \url{https://www.google.com.au/maps/place/42%C2%B036'36.0%22S+147%C2%B023'24.0%22E/@-42.6200899,147.3998392,10892m/data=!3m1!1e3!4m2!3m1!1s0x0:0x0}.
+
+\bibitem[Raupach et~al.(2009)Raupach, Briggs, Haverd, King, Paget, and
+  Trudinger]{Raupach2009}
+M~R Raupach, P~R Briggs, V~Haverd, E~A King, M~Paget, and C~M Trudinger.
+\newblock \emph{{Australian Water Availability Project ( AWAP ): CSIRO Marine
+  and Atmospheric Research Component : Final Report for Phase 3}}.
+\newblock Number 013. 2009.
+\newblock ISBN 9781921605314.
+
+\end{thebibliography}
