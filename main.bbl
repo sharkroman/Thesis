@@ -1,4 +1,4 @@
-\begin{thebibliography}{9}
+\begin{thebibliography}{10}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -18,6 +18,13 @@ P.R Leopoldo, Franken.W, and E~Salati.
 \newblock 1982.
 \newblock URL
   \url{http://scholar.google.com/scholar?hl=en\&btnG=Search\&q=intitle:Acta+Amazonica\#3}.
+
+\bibitem[Salati and Vose(1984)]{Salati1984a}
+E~Salati and PB~Vose.
+\newblock {Amazon basin: a system in equilibrium}.
+\newblock \emph{Science}, 225\penalty0 (4658):\penalty0 129--138, 1984.
+\newblock URL
+  \url{http://www.biology.ufl.edu/COURSES/pcb5356/2010Spring/Kitajima/SalatiVose84.pdf}.
 
 \bibitem[Kirby and Dijk(2008)]{Kirby2008}
 JM~Kirby and A~Van Dijk.
@@ -43,13 +50,6 @@ G.R. Walker and L.~Zhang.
 \newblock \emph{Plot-scale models and their application to recharge studies}.
 \newblock CSIRO Publishing., Melbourne, 2001.
 
-\bibitem[Salati and Vose(1984)]{Salati1984a}
-E~Salati and PB~Vose.
-\newblock {Amazon basin: a system in equilibrium}.
-\newblock \emph{Science}, 225\penalty0 (4658):\penalty0 129--138, 1984.
-\newblock URL
-  \url{http://www.biology.ufl.edu/COURSES/pcb5356/2010Spring/Kitajima/SalatiVose84.pdf}.
-
 \bibitem[Leopoldo et~al.(1995)Leopoldo, Franken, and Nova]{Leopoldo1995}
 PR~Leopoldo, WK~Franken, and NA~Villa Nova.
 \newblock {Real evapotranspiration and transpiration through a tropical rain
@@ -58,13 +58,6 @@ PR~Leopoldo, WK~Franken, and NA~Villa Nova.
 \newblock URL
   \url{http://www.sciencedirect.com/science/article/pii/037811279403487H}.
 
-\bibitem[Maps(2014)]{Google2014}
-Google Maps.
-\newblock {T}asmania, {A}ustralia. {L}atitude: -42.61 , {L}ongitude: 147.39,
-  2014.
-\newblock URL
-  \url{https://www.google.com.au/maps/place/42%C2%B036'36.0%22S+147%C2%B023'24.0%22E/@-42.6200899,147.3998392,10892m/data=!3m1!1e3!4m2!3m1!1s0x0:0x0}.
-
 \bibitem[Raupach et~al.(2009)Raupach, Briggs, Haverd, King, Paget, and
   Trudinger]{Raupach2009}
 M~R Raupach, P~R Briggs, V~Haverd, E~A King, M~Paget, and C~M Trudinger.
@@ -72,5 +65,17 @@ M~R Raupach, P~R Briggs, V~Haverd, E~A King, M~Paget, and C~M Trudinger.
   and Atmospheric Research Component : Final Report for Phase 3}}.
 \newblock Number 013. 2009.
 \newblock ISBN 9781921605314.
+
+\bibitem[Maps(2014)]{Google2014}
+Google Maps.
+\newblock {T}asmania, {A}ustralia. {L}atitude: -42.61 , {L}ongitude: 147.39,
+  2014.
+\newblock URL
+  \url{https://www.google.com.au/maps/place/42%C2%B036'36.0%22S+147%C2%B023'24.0%22E/@-42.6200899,147.3998392,10892m/data=!3m1!1e3!4m2!3m1!1s0x0:0x0}.
+
+\bibitem[of~Meteorology(2014)]{tasmania2013}
+Australian~Bureau of~Meteorology.
+\newblock {Tasmania in 2013: a hot start, then wet and windy}.
+\newblock Technical report, Australian Bureau of Meteorology, 2014.
 
 \end{thebibliography}

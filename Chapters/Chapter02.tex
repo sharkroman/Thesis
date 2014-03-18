@@ -18,7 +18,7 @@ The water balance model is essentially based on the law of conservation of mass:
 \begin{center}
 \includegraphics[width=.85\linewidth]{gfx/hydrocycle}
 \end{center}
-\caption{The hydrological cycle\citep{Zhang2002}.}
+\caption{The hydrological cycle\citep{Zhang2002}. Reprinted from ``Water balance modelling: concepts and applications'', by \citeauthor{Zhang2002}, 2007, \emph{ACIAR MONOGRAPH SERIES, 84}, p.33. Copyright 2002 by \citeauthor{Zhang2002}.  }
 \label{fig:hydrocycle}
 \end{figure}
 \newline
@@ -33,17 +33,18 @@ Simple bucket model is a widely-used water balance model in a simple conceptual 
 \begin{quote}
 Where \\
 $\theta_t$ and $\theta_{t-1}$ are the initial and final depth-averaged soil water content of the root zone in one time step. \\
-$H$ is the root zone depth\\
-$P$ is the precipitation\\
-$I$ is the Irrigation\\
-$D$ is the drainage out of the root zone, the positive value of D means downward percolation out of the root zone, whereas the negative value of it indicates upward capillary rise into the root zone.\\ $ET$ is the actual evapotranspiration\\
+$H$ is the root zone depth.\\
+$P$ is the precipitation.\\
+$I$ is the Irrigation.\\
+$D$ is the drainage out of the root zone, the positive value of D means downward percolation out of the root zone, whereas the negative value of it indicates upward capillary rise into the root zone.\\ $ET$ is the actual evapotranspiration.\\
 $R$ is the surface runoff. 
 \end{quote}
 \autoref{fig:catchment} shows the relation of a root zone modelled by the root zone water balance \autoref{eq:rootzonewaterbalance} as a plot-sized profile in a catchment. The catchment can be considered as a collection of such root zone profiles, of which the total recharge in the catchment is estimated by adding the recharge from each profile. 
 \begin{figure}[bth]
-\floatbox[{\capbeside\thisfloatsetup{capbesideposition={right,top},capbesidewidth=6cm}}]{figure}[\FBwidth]
-{\caption{Schematic diagram of a catchment\citep{Zhang2002}. The box indicates the control volume of a root zone. S is water balance, ET is evapotranspiration, P is precipitation, Q is water runoff or flow.}\label{fig:catchment}}
-{\includegraphics[width=0.9\linewidth]{gfx/catchment}}
+\begin{center}
+\includegraphics[width=0.5\linewidth]{gfx/catchment}
+\caption{Schematic diagram of a catchment\citep{Zhang2002}. The box indicates the control volume of a root zone. S is water balance, ET is evapotranspiration, P is precipitation, Q is water runoff or flow. Reprinted from ``Water balance modelling: concepts and applications'', by \citeauthor{Zhang2002}, 2007, \emph{ACIAR MONOGRAPH SERIES, 84}, p.36. Copyright 2002 by \citeauthor{Zhang2002}. }\label{fig:catchment}
+\end{center}
 \end{figure}
 \newline
 This generalisation from root zone model is not applicable to catchments that contain complex lateral redistribution of water, thus it is difficult to estimate the recharge at a catchment scale. In most cases, it is inappropriate to assume that the catchment-scale recharge is equal to the sum of plot-scale water balance recharges, without in-depth research of the hydrogeological condition of the catchment, such as the recharge pathways and spatial heterogeneity of soil properties\citep{Zhang2002}.
@@ -56,7 +57,7 @@ For instance, the Water Balance Model can be applied to the entire Amazon Basin 
 \begin{center}
 \includegraphics[width=.75\linewidth]{gfx/amazonWaterBalance}
 \end{center}
-\caption{Water balance from a study of a model basin near Manaus, Brazil\citep{Leopoldo1982}}
+\caption{Water balance from a study of a model basin near Manaus, Brazil\citep{Leopoldo1982}. Reprinted from ``Amazon basin: a system in equilibrium'', by \citeauthor{Salati1984a}, 1984, \emph{Science,4658}, p.130. Copyright 1984 by \citeauthor{Salati1984a}.  }
 \label{fig:amazonWaterBalance}
 \end{figure}
 \newline
@@ -65,9 +66,9 @@ This model applies to the horseshoe-shaped Amazon Basin as a whole system, it us
 The measurements were taken from 1981 to 1983 in a controlled field in Barro-Branco watershed\citep{Leopoldo1995}. Precipitation data was obtained by use of a simple rain gauge installed at the reserve's meteorological station whereas the discharge was determined by use of a 0.8-m-wide rectangular weir and a water level recorder. Thus, the inferences of the influx and efflux of water in the area are based on assumptions made from wind conditions and a single point-based data as the averaged value over large areas which includes non-forest areas and are also influenced by other factors. 
 
 \section{Water Balance Model for this Thesis}
-There is a trade-off in choosing between complex models and simpler models such as the simple bucket model for conducting the analysis in this thesis. With greater functionality comes greater complexity, one of the issues with using a more complex water balance model is that there are more parameters required to complete the model, thus more data and man-hours are involved to understand and interpret the equation into a machine-readable form. If there isn't sufficient data of various parameters, then selecting a complex model is inappropriate for the objectives. The key to successful modelling is to match model complexity with data availability and the analysis objectives.
+There is a trade-off in choosing between complex models and simpler models such as the simple bucket model for conducting the analysis in this thesis. With greater functionality comes greater complexity. One of the issues with using a more complex water balance model is that there are more parameters required to complete the model. Which means that more data and man-hours are involved to understand and interpret the equation into a machine-readable form. If there isn't sufficient data of various parameters, then selecting a complex model is inappropriate for the objectives. The key to successful modelling is to match model complexity with data availability and the analysis objectives.
 \subsection{Data availability}
-The objective of analysis in this thesis primarily concentrates on Australia as opposed to any other regions. Thus, one of the main data source being used is the Australian Water Availability Project (AWAP), which provides historic temporal-spatial meteorology data for the entire Australia. The AWAP is a partnership between CSIRO Marine and Atmospheric Research (CMAR), the Bureau of Meteorology (BoM) and the Bureau of Rural Science (BRS), aiming to monitor the status and trend of the water balance of the Australian territories, using model-data fusion methods to combine measurements and model predictions. The AWAP data is discussed in more detail in \autoref{ch:dataintegration} \nameref{ch:dataintegration}.\\
+The objective of analysis in this thesis primarily concentrates on Australia as opposed to any other regions. Thus, one of the main data source being used is the Australian Water Availability Project (AWAP), which provides historic temporal-spatial meteorology data for the entire Australia. As described in the AWAP Final Report \citep{Raupach2009}, the AWAP is a partnership between CSIRO Marine and Atmospheric Research (CMAR), the Bureau of Meteorology (BoM) and the Bureau of Rural Science (BRS), aiming to monitor the status and trend of the water balance of the Australian territories, using model-data fusion methods to combine measurements and model predictions. The AWAP data is discussed in more detail in \autoref{ch:dataintegration} \nameref{ch:dataintegration}.\\
 \newline
 The AWAP provides essential meteorology data for water balance calculations, such as the precipitation, evapotranspiration, surface runoff and deep drainage etc.\\
 \newline
@@ -89,7 +90,7 @@ For this given location, the following time-series data of meteorology attribute
 \label{fig:raints}
 \end{figure}
 \newline
-\autoref{fig:raints} shows the rainfall data of this location, plotted from Year 2007 to 2014. It has shown a consistent amount of precipitation for each of the years. The maximum rainfall per day is 0.0152 m/day which occurred during the week of 04-Jul-2011. Furthermore, year 2011-2012 has a slightly higher overall precipitation amount than the other years. In general, the chosen location has a dry start, then wet in Summer and Autumn throughout the year. \\
+\autoref{fig:raints} shows the rainfall data of this location, plotted from Year 2007 to 2014. It has shown a consistent amount of precipitation for each of the years. The maximum rainfall per day is 0.0152 m/day which occurred during the week of 04-Jul-2011. Furthermore, year 2011-2012 has a slightly higher overall precipitation amount than the other years. In general, the chosen location has a dry start, then wet in Summer and Autumn throughout the year\citep{tasmania2013}. \\
 \begin{figure}[hbt]
 \begin{center}
 \includegraphics[width=\linewidth]{gfx/evapts.eps}
@@ -129,14 +130,14 @@ As shown in \autoref{fig:rainsurfts}, by comparing the rainfall data, as indicat
 \end{figure}
 \newline
 \autoref{fig:deepdraints} shows the deep drainage data of this location. By observing the curve itself, there is not any linear or chronological pattern apparent in the data. Nevertheless, according to the AWAP datasheet:
-\begin{quote}
+\begin{quote}\begin{minipage}{0.9\textwidth}
 \emph{Leaching ($F_{\text{WLch}}$) or drainage downward out of soil layer i is given by}
 \begin{align}
 F_{\text{WLch}~i} &= K_{Si}w_i^\gamma
 \label{eq:awapleaching}
 \end{align}
 \emph{Where $\gamma$ is an exponent specifying the response of drainage to relative soil water $w_i$, and $K_{Si}$ [m/day] is the saturated hydraulic conductivity of soil layer i.}
-\end{quote}
+\end{minipage}\end{quote}
 \begin{figure}[hbt]
 \begin{center}
 \includegraphics[width=\linewidth]{gfx/soilmdeepts.eps}
@@ -144,7 +145,7 @@ F_{\text{WLch}~i} &= K_{Si}w_i^\gamma
 \caption{Time series of normalized AWAP data: Deep Drainage and Soil Moisture of low level, for location lat: -42.61, lon:147.39}
 \label{fig:soilmdeepts}
 \end{figure}
-\autoref{fig:soilmdeepts} plots the normalized soil moisture of low level and normalized deep drainage on the same figure. There is an apparent direct correlation between the two meteorological attributes of the point of interest, which confirms the relationship defined in \autoref{eq:awapleaching}. This means that deep drainage occur if the lower level of soil moisture is saturated.
+\autoref{fig:soilmdeepts} plots the soil moisture of low level and normalized deep drainage on the same figure. The data are normalized against the minimum and maximum so that both data scale from 0 to 1. There is an apparent direct correlation between the two meteorological attributes of the point of interest, which confirms the relationship defined in \autoref{eq:awapleaching}. This means that deep drainage occur if the lower level of soil moisture is saturated.
 \subsection{Implementing water balance model}
 In this thesis, a water balance model is implemented from equation 
 \begin{align}
