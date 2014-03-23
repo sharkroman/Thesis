@@ -1,4 +1,4 @@
-\begin{thebibliography}{10}
+\begin{thebibliography}{13}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -25,6 +25,11 @@ E~Salati and PB~Vose.
 \newblock \emph{Science}, 225\penalty0 (4658):\penalty0 129--138, 1984.
 \newblock URL
   \url{http://www.biology.ufl.edu/COURSES/pcb5356/2010Spring/Kitajima/SalatiVose84.pdf}.
+
+\bibitem[CSIRO(2014)]{Awap2014}
+CSIRO.
+\newblock {AWAP} 2007-present weekly series, 2014.
+\newblock URL \url{http://www.csiro.au/awap/cgi/awap2.pl}.
 
 \bibitem[Kirby and Dijk(2008)]{Kirby2008}
 JM~Kirby and A~Van Dijk.
@@ -77,5 +82,16 @@ Google Maps.
 Australian~Bureau of~Meteorology.
 \newblock {Tasmania in 2013: a hot start, then wet and windy}.
 \newblock Technical report, Australian Bureau of Meteorology, 2014.
+
+\bibitem[Thew et~al.(2014)Thew, McJannet, Meintjes, Terhorst, and
+  Hawdon]{cosmoz2014}
+Peter Thew, David McJannet, Ryan Meintjes, Andrew Terhorst, and Aaron Hawdon.
+\newblock {C}osm{O}z {W}iki page, 2014.
+\newblock URL \url{https://wiki.csiro.au/display/cosmoz/Home}.
+
+\bibitem[of~Arizona(2014)]{arizona2014}
+University of~Arizona.
+\newblock {L}ocation of {C}osm{O}z {P}robes, 2014.
+\newblock URL \url{http://cosmos.hwr.arizona.edu/Probes/australia.php}.
 
 \end{thebibliography}
