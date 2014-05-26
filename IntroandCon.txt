@@ -1,0 +1,19 @@
+Introduction:
+
+State the problem of water availability in agriculture, from literature review. Paraphrase and elaborate. 
+Talk about the advance in ML study in the recent years and how does it help with research and industry using the data-mining approach.
+Introduce the structure of this thesis, explain what are the individual sections.
+
+1page
+
+Conclusion:
+
+Open by quoting the number of lines, classes, manuals.
+Area-wise analysis: 
+results: enhanced resolution , what it means, what's next : 1. GUI on mobile device for farmers 2. 
+
+Further development, generic system that can be used for many other analysis. Potential and ongoing work
+Concludes the work, publication etc.
+
+3pages
+

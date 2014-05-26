@@ -22,7 +22,7 @@ The water balance model is essentially based on the law of conservation of mass:
 \label{fig:hydrocycle}
 \end{figure}
 \newline
-A variety of water balance models that derived from \autoref{eq:generalwaterbalance} exists, it can have different levels of complexity depending on the objectives of the study and data availability. 
+A variety of water balance models that are derived from \autoref{eq:generalwaterbalance} exists, it can have different levels of complexity depending on the objectives of the study and data availability. 
 \section{Simple bucket model}
 Simple bucket model is a widely-used water balance model in a simple conceptual scenario. It considers the controlled volume system as a bucket which is filled up from rainfall and emptied by evapotranspiration. If the bucket is full, extra water added is considered deep drainage. The only data that are necessary for this model are precipitation, evaporation, transpiration and the water storage capacity of the volume. 
 \section{Root zone water balance}
@@ -51,7 +51,7 @@ This generalisation from root zone model is not applicable to catchments that co
  
 \section{Complex models}
 There are complex models that investigate not only the soil moisture dynamics but also the overall hydrological cycle over a large region of interest, they are designed to simulate interactions of different components within the system and to provide more thorough experimental results of many aspects\citep{Zhang2001}. For some purposes, simple bucket water balance models are appropriate, but other uses require greater functionality and/or more extensive analysis on a large geographic scale. For example, when analyzing the ecosystem of a large area of interest, there are various feedback between processes and different sub-systems that need to be taken into account, including the hydrological cycle, nutrient balance of soil and vegetation, heat balance, atmospheric change and more.
-\subsection{Study of Amazon Basin: a system in equilibrium}
+\subsection{Example: Study of Amazon Basin- a system in equilibrium}
 For instance, the Water Balance Model can be applied to the entire Amazon Basin in Brazil, South America  \citep{Salati1984a}, which explains the status of water flow in the Amazon forest ecosystem in a quantitative manner, as shown in \autoref{fig:amazonWaterBalance}. \\
 \begin{figure}[bth]
 \begin{center}
@@ -61,14 +61,14 @@ For instance, the Water Balance Model can be applied to the entire Amazon Basin 
 \label{fig:amazonWaterBalance}
 \end{figure}
 \newline
-This model applies to the horseshoe-shaped Amazon Basin as a whole system, it uses knowledge of different domains in Meteorology. However, due to the lack of proper infrastructure in Brazil when the study was conducted. Accurate measurements on precipitation, evapotranspiration and other hydrological attributes over a large area were not available for analysis at a high precision level. \\
+This model applies to the horseshoe-shaped Amazon Basin as a whole system, it uses knowledge of different domains in meteorology. However, due to the lack of proper infrastructure in Brazil when the study was conducted, accurate measurements on precipitation, evapotranspiration and other hydrological attributes over a large area were not available for analysis at a high precision level. \\
 \newline
 The measurements were taken from 1981 to 1983 in a controlled field in Barro-Branco watershed\citep{Leopoldo1995}. Precipitation data was obtained by use of a simple rain gauge installed at the reserve's meteorological station whereas the discharge was determined by use of a 0.8-m-wide rectangular weir and a water level recorder. Thus, the inferences of the influx and efflux of water in the area are based on assumptions made from wind conditions and a single point-based data as the averaged value over large areas which includes non-forest areas and are also influenced by other factors. 
 
-\section{Water Balance Model for this Thesis}
+\section{Water Balance Model of the Thesis}\label{section:waterbalancethesis}
 There is a trade-off in choosing between complex models and simpler models such as the simple bucket model for conducting the analysis in this thesis. With greater functionality comes greater complexity. One of the issues with using a more complex water balance model is that there are more parameters required to complete the model. Which means that more data and man-hours are involved to understand and interpret the equation into a machine-readable form. If there isn't sufficient data of various parameters, then selecting a complex model is inappropriate for the objectives. The key to successful modelling is to match model complexity with data availability and the analysis objectives.
 \subsection{Data availability}\label{subsection:dataavailability}
-The objective of analysis in this thesis primarily concentrates on Australia as opposed to any other regions. Thus, one of the main data source being used is the Australian Water Availability Project (AWAP), which provides historic temporal-spatial meteorology data for the entire Australia. As described in the AWAP Final Report \citep{Raupach2009}, the AWAP is a partnership between CSIRO Marine and Atmospheric Research (CMAR), the Bureau of Meteorology (BoM) and the Bureau of Rural Science (BRS), aiming to monitor the status and trend of the water balance of the Australian territories, using model-data fusion methods to combine measurements and model predictions. The AWAP data is discussed in more detail in \autoref{ch:dataintegration} \nameref{ch:dataintegration}.\\
+The objective of analysis in this thesis primarily concentrates on Australia as opposed to any other regions. Thus, one of the main data source being used is the \ac{awap}, which provides historic temporal-spatial meteorology data for the entire Australia. As described in the AWAP Final Report \citep{Raupach2009}, the AWAP is a partnership between \ac{cmar}, the \ac{bom} and the \ac{brs}, aiming to monitor the status and trend of the water balance of the Australian territories, using model-data fusion methods to combine measurements and model predictions. The AWAP data is discussed in more detail in \autoref{ch:dataintegration} \nameref{ch:dataintegration}.\\
 \newline
 The AWAP provides essential meteorology data for water balance calculations, such as the precipitation, evapotranspiration, surface runoff and deep drainage etc.\\
 \newline
@@ -115,19 +115,19 @@ On the other hand, open water evapotranspiration is indicated by the green line,
 \end{quote}
 \begin{figure}[hbt]
 \begin{center}
+\includegraphics[width=\linewidth]{gfx/deepdraints.eps}
+\end{center}
+\caption{Time series of AWAP data: Deep Drainage, for location lat: -42.61, lon:147.39}
+\label{fig:deepdraints}
+\end{figure}
+\begin{figure}[hbt] 
+\begin{center}
 \includegraphics[width=\linewidth]{gfx/rainsurfts.eps}
 \end{center}
 \caption{Time series of AWAP data: Rainfall and Surface Runoff, for location lat: -42.61, lon:147.39}
 \label{fig:rainsurfts}
 \end{figure}
 As shown in \autoref{fig:rainsurfts}, by comparing the rainfall data, as indicated by the blue line, and the surface runoff data, as indicated by the red line, we can confirm that the above statement is correct, because the spikes of surface runoff only occur where there are continuously heavier rainfalls. That is, surface water runoff occur only when the soil moisture is in saturation status due to heavy and continuous precipitation.\\
-\begin{figure}[hbt]
-\begin{center}
-\includegraphics[width=\linewidth]{gfx/deepdraints.eps}
-\end{center}
-\caption{Time series of AWAP data: Deep Drainage, for location lat: -42.61, lon:147.39}
-\label{fig:deepdraints}
-\end{figure}
 \newline
 \autoref{fig:deepdraints} shows the deep drainage data of this location. By observing the curve itself, there is not any linear or chronological pattern apparent in the data. Nevertheless, according to the AWAP datasheet:
 \begin{quote}\begin{minipage}{0.9\textwidth}
@@ -146,7 +146,7 @@ F_{\text{WLch}~i} &= K_{Si}w_i^\gamma
 \label{fig:soilmdeepts}
 \end{figure}
 \autoref{fig:soilmdeepts} plots the soil moisture of low level and normalized deep drainage on the same figure. The data are normalized against the minimum and maximum so that both data scale from 0 to 1. There is an apparent direct correlation between the two meteorological attributes of the point of interest, which confirms the relationship defined in \autoref{eq:awapleaching}. This means that deep drainage occur if the lower level of soil moisture is saturated.
-\subsection{Implementing water balance model}
+\subsection{Implementing water balance model}\label{subsection:implementwaterbalance}
 In this thesis, a water balance model is implemented from the equation 
 \begin{align}
 	\Delta \langle S\rangle &= \langle P\rangle - \langle ET\rangle-\langle Q\rangle-\langle R\rangle
@@ -175,7 +175,7 @@ In this thesis, a water balance model is implemented from the equation
 \label{fig:waterhist}
 \end{figure}
 \newline
-The histogram of the water balance index data is plotted with 50 bars, as shown in \autoref{fig:waterhist}. Two Gaussian distributions are generated to fit the data, both one term and two terms fittings, the parameters are given below.\graffito{{\color{red}Explain the physical meaning of having normally distributed water balance indices.}}
+The histogram of the water balance index data is plotted with 50 bars, as shown in \autoref{fig:waterhist}. Two Gaussian distributions are generated to fit the data, both one term and two terms fittings, the parameters are given below.
 \begin{quote}
 \begin{align}
 f(x)&=a_1*e^{-((x-b_1)/c_1)^2)}\label{eq:gaussianfit1}\\
@@ -192,4 +192,4 @@ a_2 =       25.25 ~ (20.61, 29.89)\\
        b_3 =   0.0003042~  (-0.00053, 0.001138)\\
        c_3 =    0.002693  ~(0.001877, 0.00351)$
 \end{quote}
-From the Gaussian distribution fittings in \autoref{fig:waterhist}, the data generally is normally distributed while slightly skewed to the right. 
+From the Gaussian distribution fittings in \autoref{fig:waterhist}, the data generally is normally distributed while slightly skewed to the right. This indicates that water balance index like most meteorological attributes which naturally has a centralising tendency and certain variations due to fluctuations in the surrounding environment and/or seasonal changes, thus it can be used as a good indication for irrigation water usage.

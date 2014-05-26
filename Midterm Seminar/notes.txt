@@ -1,0 +1,69 @@
+1:Hello, this is my ENGN4200 Individual Project mid-term seminar presentation. My name is Cecil Li, this is an external project under supervision of Dr Ritaban Dutta from CSIRO. My university supervisor is Dr Jon Kim of the CECS. The project I've been working on and towards a thesis is called "Continental Scale Heterogeneous Knowledge Integration for Expert Decision Support System". 
+
+2,3,4. Let's start by imagining this scenario: A farm owner in Tasmania is wondering whether he should buy water to irrigate his plants in the next week from the water supply companies. The weather forecast on TV says it's gonna be sunny all week however his looks outside his window and his experience tells him that it looks like gonna rain. Now he is stuck in a dilemma of to buy or not to buy. That is the question.
+
+5. To solve this typical water usage problem, my project aims to provide a reliable decision support system using multiple data sources with water balance model as well as Machine learning techniques.
+
+6.So,first of all, I want to talk about the data sources I've integrated for the system. As you can see, there are 2 catagories,
+
+7. 1 from BOM, the bureau of meteorology, which includes AWAP, CosmOz and SILO.
+
+8. AWAP, is the Australian Water Availability Project. Here's a map of Australia, with blue to red colormap indicating the relative soil moisture of each area.
+
+9. CosmOz, is the ..... The image on the right hand side is one of the 11 CosmOz sensor probes currently deployed across Australia.
+
+10. SILO. The Bureau of Meteorology provides historic daily weather records for 4,760 stations all over Australia.
+
+11.The other catagory is from NASA, the National Aeronautics and Space Administration of the United States, which includes Landsat and MODIS.
+
+12. Landsat program was initially launched back in the 1970s, by NASA. It provides historic data of the earth of multiple bandwidths, both visible and invisible.
+
+13. MODIS, stands for Moderate Resolution Imaging Spectroradiometer. Its core deliverable includes the VI products, which is essential for agricultural studies.
+
+14. So we've talked about the datas, now here's the structure of the entire system. it has 3 main parts, basically, input module, processing unit and output module. 
+
+15. The input module integrates the 3 data sources I mentioned previously and generates a compiled time-series data array. To be used for the processing module.
+
+16. This shows the 35 variables used for point-based analysis which I will demonstrate later.
+
+17. Before we get into the machine learning part, I want to talk about the scientific model in irrigation planning.
+
+18. This is a diagram of water Balance model. The idea is that the total water in a crop patch should be conservative overall. So, based on the data from the 35 columns array we are able to calculate the water balance in a certain region and thus get an indicator of water balance.
+
+19. As shown in here, which will be used for supervised machine learning.
+
+20. Let's talk about the ML briefly.
+
+21. The idea is that we want to predict the water balance based on the data we have in the past.
+
+22. To do that, first we'll need training data, which is the 35 columns historic data of the past 2 years.
+
+23. And the training target, which are the indicator values for that period of time, calculated using water balance model.
+
+24.Then we will get a model like this, this is a cluster map using Linear discriminant analysis , LDA method. Green and red represnts 2 clusters of the past data, green means..., red means.... which corresponds to the indicator values. If there's a new testing data, it will be mapped onto this map as a point and we will be able to determine which cluster it belongs to, thus getting the indicator value for that test data.
+
+25. Withe all these info available, we have a user-interface set up so that the clients can access to the information in a graphic manner.
+
+26. The data will be update-to-date on the server. and will be available 247.
+
+27. I'll show a little demo of the mobile application, that implements the point-based analysis.
+
+28. So, if you start the application, it will show you a map of Australia with the available locations mapped on the screen. 
+You can zoom in and out with the google maps. 
+And you can switch between normal and satellite mode of the map.
+Here's an about page with term of use etc.
+And if you click this button, it will move to your current gps location.
+You can click your local sensor station, there will be a popup window displaying the indicator, either red or green, same convention as we used for clustering, and you can save it as default location.
+The next time you open up the application, the information of your saved location will be displayed directly without having to choose again.
+And of course you can always choose to change your default location to elsewhere.
+
+29. Also, the area-wise analysis and implementation is in progress. This demonstrate a case study on the Houston Salad Farm in Tasmania. As the user specifies his location, an area-wise analysis for that region will be displayed, the right hand side is the 3D time-lapse animation of the vegetation condition in the Houston farm's area from year 2000 to year 2013. The Z-axis of the plot is the height above sea level, acquired from Digital Elevation Data, while the coloring indicates the vegetation level.
+
+30. Let's come back to the scenario we started with. Equipped with the system my project provides, the farmer will be able to make decisions easier and with more confidence.
+The question does he need water or not for the next week? As the indicator tells us, Yes he does.
+
+31. That's the end of my presentation.
+
+32. I would like to thank all these people who supported my work, especially my supervisor Dr Ritaban and the Hobart CCI centre of CSIRO.
+
+33. Thank you very much for your time.

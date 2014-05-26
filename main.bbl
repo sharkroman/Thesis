@@ -1,4 +1,4 @@
-\begin{thebibliography}{13}
+\begin{thebibliography}{30}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -26,10 +26,48 @@ E~Salati and PB~Vose.
 \newblock URL
   \url{http://www.biology.ufl.edu/COURSES/pcb5356/2010Spring/Kitajima/SalatiVose84.pdf}.
 
-\bibitem[CSIRO(2014)]{Awap2014}
-CSIRO.
+\bibitem[\ac{csiro}(2014)]{Awap2014}
+\ac{csiro}.
 \newblock {AWAP} 2007-present weekly series, 2014.
 \newblock URL \url{http://www.csiro.au/awap/cgi/awap2.pl}.
+
+\bibitem[\ac{abs}(2013)]{Statistics2013}
+\ac{abs}.
+\newblock {Water Account Australia 2011-2012}.
+\newblock Technical report, Australian Bureau of Statistics, 2013.
+
+\bibitem[Wong et~al.(1984)Wong, Barbetti, and Sivasithamparam]{Wong1984}
+DH~Wong, MJ~Barbetti, and K~Sivasithamparam.
+\newblock {Effects of soil temperature and moisture on the pathogenicity of
+  fungi associated with root rot of subterranean clover}.
+\newblock \emph{Australian Journal of Agricultural Research}, 35\penalty0
+  (5):\penalty0 675, 1984.
+\newblock ISSN 0004-9409.
+\newblock \doi{10.1071/AR9840675}.
+\newblock URL \url{http://www.publish.csiro.au/paper/AR9840675
+  http://www.publish.csiro.au/?paper=AR9840675}.
+
+\bibitem[Zander et~al.(2005)Zander, Nguyen, and Armitage]{Zander2005}
+S.~Zander, T.~Nguyen, and G.~Armitage.
+\newblock {Automated traffic classification and application identification
+  using machine learning}.
+\newblock \emph{The IEEE Conference on Local Computer Networks 30th Anniversary
+  (LCN'05)l}, pages 250--257, 2005.
+\newblock \doi{10.1109/LCN.2005.35}.
+\newblock URL
+  \url{http://ieeexplore.ieee.org/lpdocs/epic03/wrapper.htm?arnumber=1550864}.
+
+\bibitem[Bartlett et~al.(2005)Bartlett, Littlewort, Frank, Lainscsek, Fasel,
+  and Movellan]{Bartlett2005}
+M.S. Bartlett, G.~Littlewort, M.~Frank, C.~Lainscsek, I.~Fasel, and
+  J.~Movellan.
+\newblock {Recognizing Facial Expression: Machine Learning and Application to
+  Spontaneous Behavior}.
+\newblock \emph{2005 IEEE Computer Society Conference on Computer Vision and
+  Pattern Recognition (CVPR'05)}, 2:\penalty0 568--573, 2005.
+\newblock \doi{10.1109/CVPR.2005.297}.
+\newblock URL
+  \url{http://ieeexplore.ieee.org/lpdocs/epic03/wrapper.htm?arnumber=1467492}.
 
 \bibitem[Kirby and Dijk(2008)]{Kirby2008}
 JM~Kirby and A~Van Dijk.
@@ -78,10 +116,15 @@ Google Maps.
 \newblock URL
   \url{https://www.google.com.au/maps/place/42%C2%B036'36.0%22S+147%C2%B023'24.0%22E/@-42.6200899,147.3998392,10892m/data=!3m1!1e3!4m2!3m1!1s0x0:0x0}.
 
-\bibitem[of~Meteorology(2014)]{tasmania2013}
-Australian~Bureau of~Meteorology.
+\bibitem[\ac{bom}(2014)]{tasmania2013}
+\ac{bom}.
 \newblock {Tasmania in 2013: a hot start, then wet and windy}.
 \newblock Technical report, Australian Bureau of Meteorology, 2014.
+
+\bibitem[Smith et~al.(2014)Smith, Sullivan, and Conway]{opencsv2014}
+Glen Smith, Sean Sullivan, and Scott Conway.
+\newblock opencsv on sourceforge, 2014.
+\newblock URL \url{http://opencsv.sourceforge.net/}.
 
 \bibitem[Thew et~al.(2014)Thew, McJannet, Meintjes, Terhorst, and
   Hawdon]{cosmoz2014}
@@ -89,9 +132,97 @@ Peter Thew, David McJannet, Ryan Meintjes, Andrew Terhorst, and Aaron Hawdon.
 \newblock {C}osm{O}z {W}iki page, 2014.
 \newblock URL \url{https://wiki.csiro.au/display/cosmoz/Home}.
 
-\bibitem[of~Arizona(2014)]{arizona2014}
-University of~Arizona.
+\bibitem[{University of Arizona}(2014)]{arizona2014}
+{University of Arizona}.
 \newblock {L}ocation of {C}osm{O}z {P}robes, 2014.
 \newblock URL \url{http://cosmos.hwr.arizona.edu/Probes/australia.php}.
+
+\bibitem[Mission(2013)]{Mission2013}
+LDC Mission.
+\newblock {Landsat: A Global Land-Imaging Mission}.
+\newblock \emph{pubs.usgs.gov}, \penalty0 (May), 2013.
+\newblock URL \url{http://pubs.usgs.gov/fs/2012/3072/}.
+
+\bibitem[Viets(1995)]{Viets1995}
+Patricia~W Viets.
+\newblock {LANDSAT 6 FAILURE ATTRIBUTED TO RUPTURED MANIFOLD}.
+\newblock Technical Report 301, National Oceanic and Atmospheric
+  Administration, 1995.
+
+\bibitem[Johnson(2013)]{Johnson2013}
+L.~Johnson.
+\newblock \emph{{LANDSAT THEMATIC MAPPER ( TM ) LEVEL 1 ( L1 ) DATA FORMAT
+  CONTROL BOOK ( DFCB )}}, volume~1.
+\newblock Department of the Interior U.S. Geological Survey, version 5.
+  edition, 2013.
+
+\bibitem[Lindsey et~al.(2013)Lindsey, Herring, Abbott, Conboy, Esaias, Justice,
+  King, Murphy, and Salomonson]{Lindsey2013}
+Rebecca Lindsey, David Herring, Mark Abbott, Barbara Conboy, Wayne Esaias,
+  Chris Justice, Michael King, Bob Murphy, and Vince Salomonson.
+\newblock \emph{{MODIS Brochure}}, volume~3.
+\newblock Goddard Space Flight Center, March 2013.
+\newblock \doi{10.2217/pmt.13.10}.
+\newblock URL \url{http://www.ncbi.nlm.nih.gov/pubmed/24646000}.
+
+\bibitem[Wolfe(2005)]{modis2005}
+Robert Wolfe.
+\newblock Modland tile calculator, 2005.
+\newblock URL
+  \url{http://landweb.nascom.nasa.gov/cgi-bin/developer/tilemap.cgi}.
+
+\bibitem[Folk(2013)]{hdf2013}
+Mike Folk.
+\newblock The hdf group, 2013.
+\newblock URL \url{http://www.hdfgroup.org/}.
+
+\bibitem[Tickle and Woodgate(2008)]{Tickle2008}
+Phil Tickle and Peter Woodgate.
+\newblock {THE NATIONAL ELEVATION DATA FRAMEWORK ( NEDF ) Stratgeic Planning
+  Document}.
+\newblock Technical report, Geoscience Australia, Australian Government, 2008.
+
+\bibitem[Folk(2014)]{play2014}
+Mike Folk.
+\newblock Play framework - build moderen \& scalable web apps with java and
+  scala, 2014.
+\newblock URL \url{http://www.playframework.com/}.
+
+\bibitem[Jang(1993)]{Jang1993}
+JSR Jang.
+\newblock {ANFIS: adaptive-network-based fuzzy inference system}.
+\newblock \emph{Systems, Man and Cybernetics, IEEE Transactions \ldots},
+  23\penalty0 (3):\penalty0 665 -- 685, 1993.
+\newblock URL
+  \url{http://ieeexplore.ieee.org/xpls/abs\_all.jsp?arnumber=256541}.
+
+\bibitem[Kim et~al.(2003)Kim, Pang, Je, Kim, and {Yang Bang}]{Kim2003}
+Hyun-Chul Kim, Shaoning Pang, Hong-Mo Je, Daijin Kim, and Sung {Yang Bang}.
+\newblock {Constructing support vector machine ensemble}.
+\newblock \emph{Pattern Recognition}, 36\penalty0 (12):\penalty0 2757--2767,
+  December 2003.
+\newblock ISSN 00313203.
+\newblock \doi{10.1016/S0031-3203(03)00175-4}.
+\newblock URL
+  \url{http://linkinghub.elsevier.com/retrieve/pii/S0031320303001754}.
+
+\bibitem[Dietterich(2000)]{Dietterich2000}
+TG~Dietterich.
+\newblock {Ensemble methods in machine learning}.
+\newblock In \emph{Multiple classifier systems}, chapter Ensemble M, pages
+  1--15. Springer Berlin Heidelberg, Cagliari, Italy, 1 edition, 2000.
+\newblock \doi{10.1007/3-540-45014-9\_1}.
+\newblock URL \url{http://link.springer.com/chapter/10.1007/3-540-45014-9\_1}.
+
+\bibitem[Li et~al.(2013)Li, Dutta, Kloppers, D'Este, Morshed, Almeida, Das, and
+  Aryal]{Li2013}
+Cecil Li, Ritaban Dutta, Corne Kloppers, Claire D'Este, Ahsan Morshed, Auro
+  Almeida, Aruneema Das, and Jagannath Aryal.
+\newblock {Mobile application based sustainable irrigation water usage decision
+  support system: An intelligent sensor CLOUD approach}.
+\newblock \emph{2013 Ieee Sensors}, pages 1--4, November 2013.
+\newblock \doi{10.1109/ICSENS.2013.6688523}.
+\newblock URL
+  \url{http://ieeexplore.ieee.org/lpdocs/epic03/wrapper.htm?arnumber=6688523}.
 
 \end{thebibliography}

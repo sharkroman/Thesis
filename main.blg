@@ -1,0 +1,62 @@
+This is BibTeX, Version 0.99dThe top-level auxiliary file: main.aux
+A level-1 auxiliary file: FrontBackMatter/Titlepage.aux
+A level-1 auxiliary file: FrontBackMatter/Declaration.aux
+A level-1 auxiliary file: FrontBackMatter/Acknowledgments.aux
+A level-1 auxiliary file: FrontBackMatter/Abstract.aux
+A level-1 auxiliary file: FrontBackMatter/Publication.aux
+A level-1 auxiliary file: FrontBackMatter/Contents.aux
+A level-1 auxiliary file: Chapters/Chapter01.aux
+A level-1 auxiliary file: Chapters/Chapter02.aux
+A level-1 auxiliary file: Chapters/Chapter03.aux
+A level-1 auxiliary file: Chapters/Chapter04.aux
+A level-1 auxiliary file: Chapters/Chapter05.aux
+A level-1 auxiliary file: Chapters/Chapter0A.aux
+A level-1 auxiliary file: FrontBackMatter/Bibliography.aux
+The style file: unsrtnat.bst
+Database file #1: manual.bib
+Warning--entry type for "Google2014" isn't style-file defined
+--line 19 of file manual.bib
+Warning--string name "april" is undefined
+--line 22 of file manual.bib
+Warning--entry type for "Awap2014" isn't style-file defined
+--line 35 of file manual.bib
+Warning--string name "march" is undefined
+--line 38 of file manual.bib
+Warning--entry type for "cosmoz2014" isn't style-file defined
+--line 43 of file manual.bib
+Warning--string name "march" is undefined
+--line 46 of file manual.bib
+Warning--entry type for "arizona2014" isn't style-file defined
+--line 51 of file manual.bib
+Warning--string name "march" is undefined
+--line 54 of file manual.bib
+Warning--entry type for "opencsv2014" isn't style-file defined
+--line 59 of file manual.bib
+Warning--string name "april" is undefined
+--line 62 of file manual.bib
+Warning--entry type for "modis2005" isn't style-file defined
+--line 67 of file manual.bib
+Warning--string name "october" is undefined
+--line 70 of file manual.bib
+Warning--entry type for "hdf2013" isn't style-file defined
+--line 75 of file manual.bib
+Warning--string name "december" is undefined
+--line 78 of file manual.bib
+Warning--entry type for "play2014" isn't style-file defined
+--line 83 of file manual.bib
+Database file #2: library.bib
+Name 1 in "{University of Arizona}," has a comma at the end for entry arizona2014
+while executing---line 1233 of file unsrtnat.bst
+Warning--there's a number but no volume in Zhang2002
+Warning--empty publisher in Leopoldo1982
+Warning--empty institution in Kirby2008
+Warning--there's a number but no series in Raupach2009
+Warning--empty publisher in Raupach2009
+Name 1 in "{University of Arizona}," has a comma at the end for entry arizona2014
+while executing---line 1315 of file unsrtnat.bst
+Name 1 in "{University of Arizona}," has a comma at the end for entry arizona2014
+while executing---line 1315 of file unsrtnat.bst
+Warning--there's a number but no volume in Mission2013
+Warning--can't use both volume and number fields in Johnson2013
+Warning--can't use both volume and number fields in Lindsey2013
+(There were 3 error messages)

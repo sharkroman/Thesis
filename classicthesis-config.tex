@@ -14,24 +14,23 @@
 
 % Remove drafting to get rid of the '[ Date - classicthesis version 4.0 ]' text at the bottom of every page
 \PassOptionsToPackage{table}{xcolor}
-\PassOptionsToPackage{eulerchapternumbers,listings,drafting, pdfspacing, subfig,beramono,eulermath,parts}{classicthesis}
+\PassOptionsToPackage{eulerchapternumbers,listings, pdfspacing, subfig,beramono,eulermath,parts,floatperchapter}{classicthesis}
 % Available options: drafting parts nochapters linedheaders eulerchapternumbers beramono eulermath pdfspacing minionprospacing tocaligned dottedtoc manychapters listings floatperchapter subfig
 % Adding 'dottedtoc' will make page numbers in the table of contents flushed right with dots leading to them
 
-\newcommand{\myTitle}{Cecil's Thesis\xspace}
-\newcommand{\mySubtitle}{An Homage to The Elements of Typographic Style\xspace}
-\newcommand{\myDegree}{Doktor-Ingenieur (Dr.-Ing.)\xspace}
+\newcommand{\myTitle}{Continental Scale Heterogeneous Knowledge Integration for Expert Agricultural Decision Support System\xspace}
+\newcommand{\mySubtitle}{A thesis submitted in part fulfilment of the degree of \xspace}
+\newcommand{\myDegree}{Bachelor of Engineering(Honours)\xspace}
 \newcommand{\myName}{Cecil Li\xspace}
 \newcommand{\myProf}{\xspace}
 \newcommand{\myOtherProf}{\xspace}
 \newcommand{\mySupervisor}{Dr Ritaban Dutta\xspace}
-\newcommand{\myFaculty}{CECS\xspace}
+\newcommand{\myFaculty}{College of Engineering \& Computer Science\xspace}
 \newcommand{\myDepartment}{\xspace}
-\newcommand{\myUni}{ANU\xspace}
+\newcommand{\myUni}{Australian National University\xspace}
 \newcommand{\myLocation}{Canberra\xspace}
-\newcommand{\myTime}{March 2014\xspace}
+\newcommand{\myTime}{May 2014\xspace}
 \newcommand{\myVersion}{version 1.0\xspace}
-
 %----------------------------------------------------------------------------------------
 %	USEFUL COMMANDS
 %----------------------------------------------------------------------------------------
@@ -65,9 +64,9 @@
 
 %------------------------------------------------			
 
-\PassOptionsToPackage{square,numbers}{natbib}
+\PassOptionsToPackage{round}{natbib}
+%\PassOptionsToPackage{square,numbers}{natbib}
  \usepackage{natbib}
- 
  %------------------------------------------------
 
 \PassOptionsToPackage{fleqn}{amsmath} % Math environments and more by the AMS 
@@ -92,7 +91,7 @@
 
 %------------------------------------------------
 
-\PassOptionsToPackage{smaller}{acronym} % Include printonlyused in the first bracket to only show acronyms used in the text
+%\PassOptionsToPackage{smaller}{acronym} % Include printonlyused in the first bracket to only show acronyms used in the text
 \usepackage{acronym} % nice macros for handling all acronyms in the thesis
 
 %------------------------------------------------
@@ -152,7 +151,7 @@ belowcaptionskip=.75\baselineskip % Space after the "Listing #: Desciption" text
 \hypersetup{
 % Uncomment the line below to remove all links (to references, figures, tables, etc)
 %draft, 
-colorlinks=true, linktocpage=true, pdfstartpage=3, pdfstartview=FitV,
+colorlinks=true, linktocpage=true, pdfstartpage=1, pdfstartview=FitV,
 % Uncomment the line below if you want to have black links (e.g. for printing black and white)
 %colorlinks=false, linktocpage=false, pdfborder={0 0 0}, pdfstartpage=3, pdfstartview=FitV, 
 breaklinks=true, pdfpagemode=UseNone, pageanchor=true, pdfpagemode=UseOutlines,
@@ -245,8 +244,8 @@ pdfproducer={LaTeX with hyperref and classicthesis}
 %----------------------------------------------------------------------------------------
 %	USING DIFFERENT FONTS
 %----------------------------------------------------------------------------------------
-
-\usepackage{epstopdf}
+\usepackage[left=1.5in,right=1in,top=1in,bottom=1in]{geometry}
+\usepackage{epstopdf} 
 %\usepackage[oldstylenums]{kpfonts} % oldstyle notextcomp
 %\usepackage[osf]{libertine}
 %\usepackage{hfoldsty} % Computer Modern with osf

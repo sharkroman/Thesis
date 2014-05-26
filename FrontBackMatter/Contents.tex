@@ -4,12 +4,13 @@
 
 \pdfbookmark[1]{\contentsname}{tableofcontents} % Bookmark name visible in a PDF viewer
 
-\setcounter{tocdepth}{2} % Depth of sections to include in the table of contents - currently up to subsections
+\setcounter{tocdepth}{3} % Depth of sections to include in the table of contents - currently up to subsections
 
 \setcounter{secnumdepth}{3} % Depth of sections to number in the text itself - currently up to subsubsections
 
 \manualmark
 \markboth{\spacedlowsmallcaps{\contentsname}}{\spacedlowsmallcaps{\contentsname}}
+\renewcommand*\contentsname{Table Of Contents}
 \tableofcontents 
 \automark[section]{chapter}
 \renewcommand{\chaptermark}[1]{\markboth{\spacedlowsmallcaps{#1}}{\spacedlowsmallcaps{#1}}}
@@ -52,14 +53,14 @@
 %	List of Listings
 %---------------------------------------------------------------------------------------- 
 
-\refstepcounter{dummy}
+%\refstepcounter{dummy}
 %\addcontentsline{toc}{chapter}{\lstlistlistingname} % Uncomment if you would like the list of listings to appear in the table of contents
-\pdfbookmark[1]{\lstlistlistingname}{lol} % Bookmark name visible in a PDF viewer
+%\pdfbookmark[1]{\lstlistlistingname}{lol} % Bookmark name visible in a PDF viewer
 
-\lstlistoflistings 
+%\lstlistoflistings 
 
-\vspace*{8ex}
-\newpage
+%\vspace*{8ex}
+%\newpage
        
 %----------------------------------------------------------------------------------------
 %	Acronyms
@@ -74,9 +75,55 @@
 \chapter*{Acronyms}
 
 \begin{acronym}[UML]
-\acro{DRY}{Don't Repeat Yourself}
-\acro{API}{Application Programming Interface}
-\acro{UML}{Unified Modeling Language}
+\acro{abs}[ABS]{Australian Bureau of Statistics}
+\acro{aest}[AEST]{Australian Eastern Standard Time}
+\acro{anfis}[ANFIS]{Adaptive Neuro Fuzzy Inference System}
+\acro{api}[API]{Application programming interface}
+\acro{atbd}[ATBD]{Algorithm Theoretical Basis Document}
+\acro{awap}[AWAP]{Australian Water Availability Project}
+\acro{bda}[BDA]{Bulk Download Application}
+\acro{bom}[BOM]{Bureau of Meteorology}
+\acro{brs}[BRS]{Bureau of Rural Science}
+\acro{cmar}[CMAR]{CSIRO Marine and Atmospheric Research}
+\acro{cosmoz}[CosmOz]{Australian National Cosmic Ray Soil Moisture Monitoring Facility}
+\acro{csiro}[CSIRO]{Commonwealth Scientific Industrial Research Organization}
+\acro{csv}[CSV]{Comma-seperated values}
+\acro{ded}[DED]{Digital Elevation Data}
+\acro{dem}[DEM]{Digital Elevation Model}
+\acro{dsitia}[DSITIA]{Department of Science, Information Technology, Innovation and the Arts}
+\acro{dsm}[DSM]{Digital Surface Model}
+\acro{dtm}[DTM]{Digital Terrain Model}
+\acro{enn}[ENN]{Elman neural network}
+\acro{envi}[ENVI]{Exelis Visual Information Solutions}
+\acro{eos}[EOS]{Earth Observation Centre}
+\acro{etm}[ETM]{Enhanced Thematic Mapper}
+\acro{etm+}[ETM+]{Enhanced Thematic Mapper Plus}
+\acro{fnn}[FNN]{Feed-forward neural network}
+\acro{ftp}[FTP]{File Transfer Protocol}
+\acro{ffnn}[FFNN]{Function fitting neural network}
+\acro{gl}[GL]{Gigalitre}
+\acro{gui}[GUI]{Graphic User Inteface}
+\acro{hmm}[HMM]{Hidden Markrov Model}
+\acro{json}[JSON]{JavaScript Object Notation}
+\acro{lda}[LDA]{Linear discriminant analysis}
+\acro{lgpl}[LGPL]{Lesser General Public License}
+\acro{modis}[MODIS]{Moderate-resolution Imaging Spectroradiometer} 
+\acro{mss}[MSS]{Multispectral Scanner}
+\acro{nasa}[NASA]{National Aeronautics and Space Administration}
+\acro{ndvi}[NDVI]{Normalized Difference Vegetation Index}
+\acro{nedf}[NEDF]{National Elevation Data Framework}
+\acro{noaa}[NOAA]{National Oceanic and Atmospheric Administration}
+\acro{oli}[OLI]{Operational Land Imager}
+\acro{os}[OS]{Operating System}
+\acro{rbv}[RBV]{Return Beam Vidicon Camera}
+\acro{roi}[ROI]{region of interest}  
+\acro{slc}[SLC]{Scan Line Corrector}
+\acro{tirs}[TIRS]{Thermal Infrared Sensor} 
+\acro{tm}[TM]{Thematic Mapper}
+\acro{usgs}[USGS]{U.S. Geological Survey}
+\acro{utm}[UTM]{Universal Transverse Mercator}
+\acro{vi}[VI]{Vegetation Index}
+\acro{wgs84}[WGS84]{World Geodetic System 84}
 \end{acronym}  
                    
 \endgroup
